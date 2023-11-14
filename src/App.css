@@ -1,0 +1,120 @@
+body {
+  background-color: #450d6f;
+}
+
+
+
+.wordcounter {
+  position: relative;
+  text-align: center;
+
+
+}
+
+.comment {
+  position: relative;
+  top: 190px;
+  right: 310px;
+  font-size: 30px;
+  border: 3px solid  rgb(250, 152, 41);
+  border-radius: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.btn {
+  position: relative;
+  top: 250px;
+  right: 940px;
+  width: 500px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 25px;
+  background: rgb(250, 152, 41);
+  color: white;
+  border: 3px solid rgb(250, 152, 41);
+  border-radius: 30px;
+  transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: rgb(206, 176, 140);
+  border: rgb(206, 176, 140);
+}
+
+.btn:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.head1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  bottom: 380px;
+  left: 700px;
+}
+
+.head2 {
+  font-size: 50px;
+  font-weight: bold;
+  box-shadow: 20px 20px solid #1c1c1c;
+  color: rgb(250, 152, 41);
+  position: relative;
+  bottom: 380px;
+  left: 720px;
+}
+
+.span1{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(250, 152, 41);
+  position: relative;
+  bottom: 200px;
+  left: 900px;
+}
+
+.span2{
+  font-size: 50px;
+  font-weight: bold;
+  box-shadow: 20px 20px solid #1c1c1c;
+  color: rgb(250, 152, 41);
+  position: relative;
+  bottom: 130px;
+  left: 478px;
+}
+
+.span3{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(250, 152, 41);
+  position: relative;
+  bottom: 50px;
+  left: 140px;
+}
+
+.span4{
+  color:  white;
+}
